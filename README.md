@@ -30,6 +30,20 @@ va installer toutes les dependances:
     "react-router-dom": "^6.23.1"
   },
 
+  Configurer les Variables d’Environnement
+
+📌 Créer un fichier .env dans le dossier racine et ajouter les variables nécessaires :
+
+Ajoute tes variables d’environnement :
+  VITE_SITE_KEY = 
+
+📌 Mettre à jour scr/config/config.js et ajouter l’URL de base:
+  //export const BASE_URL="http://localhost:8080";
+  export const BASE_URL="https://msprback-cms-reworked.onrender.com";
+
+
+
+
   # lancement de l'app+serveur applicatif
 
   Aller à la racine du site et lancer dans la console:  
