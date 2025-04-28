@@ -35,11 +35,13 @@ va installer toutes les dependances:
 📌 Créer un fichier .env dans le dossier racine et ajouter les variables nécessaires :
 
 Ajoute tes variables d’environnement :
-  VITE_SITE_KEY = 
+
+    VITE_SITE_KEY = 
 
 📌 Mettre à jour scr/config/config.js et ajouter l’URL de base:
-  //export const BASE_URL="http://localhost:8080";
-  export const BASE_URL="https://msprback-cms-reworked.onrender.com";
+
+    //export const BASE_URL="http://localhost:8080";
+    export const BASE_URL="https://msprback-cms-reworked.onrender.com";
 
 
 
