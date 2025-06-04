@@ -37,9 +37,9 @@ function Header() {
                 <Nav.Link> <Link to={"/Map"} className='font-weight-bolder text-light text-decoration-none h6'>CARTE</Link></Nav.Link>
                 <Nav.Link> <Link to={"/Concert"} className='font-weight-bolder text-light text-decoration-none h6'>CONCERTS</Link></Nav.Link>
                 <Nav.Link> <Link to={"/Programme"} className='font-weight-bolder text-light text-decoration-none h6'>PROGRAMME</Link></Nav.Link>
-                <Nav.Link href="https://nationsoundmetal.rf.gd/wp/partenaires/"><div className='font-weight-bolder text-light text-decoration-none h6'>PARTENAIRES</div></Nav.Link>
-                <Nav.Link href="https://nationsoundmetal.rf.gd/wp/foire-aux-questions/"><div className='font-weight-bolder text-light text-decoration-none h6'>FAQ</div></Nav.Link>
-                <Nav.Link href="https://nationsoundmetal.rf.gd/wp"><div className='font-weight-bolder text-light text-decoration-none h6'>BOUTIQUE</div></Nav.Link>
+                <Nav.Link href="https://nationsoundmetal.rf.gd/wp/partenaires/"><a className='font-weight-bolder text-light text-decoration-none h6'>PARTENAIRES</a></Nav.Link>
+                <Nav.Link href="https://nationsoundmetal.rf.gd/wp/foire-aux-questions/"><a className='font-weight-bolder text-light text-decoration-none h6'>FAQ</a></Nav.Link>
+                <Nav.Link href="https://nationsoundmetal.rf.gd/wp"><a className='font-weight-bolder text-light text-decoration-none h6'>BOUTIQUE</a></Nav.Link>
               </div> 
               <div className='d-flex  justify-content-end mb-2 '>
                 {currentUser ? (
